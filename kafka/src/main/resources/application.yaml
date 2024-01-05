@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  webflux:
+    base-path: '/'
+  kafka:
+    bootstrap-servers: localhost:29092,localhost:29093,localhost:29094
+
+
+app:
+  kafka:
+    bootstrap:
+      servers: localhost:29092,localhost:29093,localhost:29094
+
+
